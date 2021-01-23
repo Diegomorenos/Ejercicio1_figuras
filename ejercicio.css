@@ -1,5 +1,5 @@
 * {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
 }
 
 /*menu*/
@@ -52,14 +52,14 @@ article {
     width: 200px;
     height: 200px;
     margin-left: 2%;
-}
+    }
 
 .cuadro-tricolor {
     width: 0;
     height: 0;
-    border-left: 100px solid blue;
-    border-top: 50px solid yellow;
-    border-bottom: 50px solid red;
+    border-left: 120px solid blue;
+    border-top: 60px solid yellow;
+    border-bottom: 60px solid red;
 }
 
 .circulo {
@@ -68,14 +68,15 @@ article {
     border-radius: 50%;
     background: black;
     border: salmon solid 3px;
+    padding: 10px;
 }
 
 .triangulo {
     width: 0;
     height: 0;
-    border-bottom: 100px tomato solid;
-    border-left: 50px transparent solid;
-    border-right: 50px transparent solid;
+    border-bottom: 120px tomato solid;
+    border-left: 60px transparent solid;
+    border-right: 60px transparent solid;
 }
 
 .ovalo {
@@ -84,6 +85,7 @@ article {
     background-color: teal;
     border-radius: 50%;
     border: black solid;
+    padding: 5px;
 }
 
 .rombo {
@@ -97,11 +99,22 @@ article {
 .pacman-tricolor {
     width: 0;
     height: 0;
-    border-right: 50px solid transparent;
-    border-left: 50px solid green;
-    border-bottom: 50px solid coral;
-    border-top: 50px solid purple;
-    border-radius: 50px;
+    border-right: 70px solid transparent;
+    border-left: 70px solid green;
+    border-bottom: 70px solid coral;
+    border-top: 70px solid purple;
+    border-radius: 70px;
 }
 
 /*footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    background-color: rgb(55, 109, 209);
+    border: black solid 3px;
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    width: 90%;
+}
